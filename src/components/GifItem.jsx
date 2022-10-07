@@ -10,12 +10,10 @@ export const GifItem = ({ title, url, id }) => {
   )
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <GifItem />
-  </React.StrictMode>
-);
+  // <React.StrictMode>
+  //   <GifItem />
+  // </React.StrictMode>
+
 
 GifItem.propTypes = {
   title: PropTypes.string.isRequired,
